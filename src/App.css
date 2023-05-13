@@ -1,0 +1,42 @@
+#calculator {
+  display: grid;
+}
+#display {
+  background-color: black;
+  color: white;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1 / 4;
+  padding: 3vw;
+  font-size: 2ch;
+}
+#calculator button {
+  width: 100%;
+  font-size: 3em;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 0;
+}
+#calculator button:hover {
+  background-color: rgba(0, 0, 0, 0.509);
+}
+#calculator button:active {
+  background-color: rgba(0, 0, 0, 0.301);
+}
+#clear {
+  background-color: orange;
+  border: 1px solid rgba(210, 210, 210, 0.537);
+}
+.number {
+  background-color: rgb(171, 171, 171);
+  border: 1px solid rgba(27, 27, 27, 0.537);
+}
+.operation {
+  background-color: rgb(37, 37, 37);
+  color: rgb(146, 146, 146);
+  border: 1px solid rgba(84, 84, 84, 0.537);
+}
+#equals {
+  background-color: white;
+  border: 1px solid rgb(112, 112, 112);
+}
